@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:manga_domain/pages/trial_page.dart';
 import 'package:manga_domain/pages/forgot_password.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       //   primaryColor: Color(0xFFEA2831),
       //   buttonTheme: ButtonThemeData(buttonColor: Color(0xFFEA2831)),
       // ),
-      home: ForgotPassword(),
+      home: TrialPage(),
     );
   }
 }
